@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junho Verde - Consciência Ambiental</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f9f4;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2e7d32, #4caf50);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: #1b5e20;
+            padding: 0.8rem;
+            text-align: center;
+            sticky: top;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #a5d6a7;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: #2e7d32;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #a5d6a7;
+            padding-bottom: 0.5rem;
+        }
+
+        .curiosidades-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .card {
+            background: #e8f5e9;
+            padding: 1.5rem;
+            border-left: 5px solid #2e7d32;
+            border-radius: 4px;
+        }
+
+        .card h3 {
+            color: #1b5e20;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Junho Verde</h1>
+        <p>Preservar o meio ambiente é proteger o nosso futuro</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">O que é?</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#fazer">Como Ajudar</a>
+    </nav>
+
+    <div class="container">
+        
+        <section id="sobre">
+            <h2>O que é o Junho Verde?</h2>
+            <p>O <strong>Junho Verde</strong> é um mês dedicado à conscientização e preservação ambiental. A campanha visa chamar a atenção da sociedade para os problemas ecológicos que o planeta enfrenta e incentivar ações que promovam a sustentabilidade e o respeito à natureza.</p>
+            <p>Instituído oficialmente no Brasil, o mês coincide com o <em>Dia Mundial do Meio Ambiente</em> (5 de junho), servindo como um grande amplificador para debates, plantios de árvores e mutirões de limpeza.</p>
+        </section>
+
+        <section id="curiosidades">
+            <h2>Curiosidades Surpreendentes</h2>
+            <div class="curiosidades-grid">
+                <div class="card">
+                    <h3> Lei Oficial</h3>
+                    <p>No Brasil, o "Junho Verde" foi instituído por uma lei federal (Lei nº 14.393) em 2022, tornando obrigatória a promoção de ações de conscientização ecológica por parte do poder público durante todo o mês.</p>
+                </div>
+                <div class="card">
+                    <h3> Origem de 1972</h3>
+                    <p>O marco inicial de tudo foi a Conferência de Estocolmo, que aconteceu em junho de 1972. Foi o primeiro grande encontro mundial para discutir a degradação do meio ambiente feita pelo homem.</p>
+                </div>
+                <div class="card">
+                    <h3> O Poder das Árvores</h3>
+                    <p>Você sabia que uma única árvore adulta pode absorver cerca de 22 kg de gás carbônico (CO2) por ano? Por isso o plantio é uma das principais atividades deste mês.</p>
+                </div>
+                <div class="card">
+                    <h3> O Plástico no Oceano</h3>
+                    <p>Cerca de 8 milhões de toneladas de plástico entram nos oceanos todos os anos. Muitas campanhas de Junho Verde focam exclusivamente em ensinar as pessoas a reduzirem o uso de plásticos descartáveis.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="fazer">
+            <h2>Como você pode fazer a sua parte?</h2>
+            <p>Não precisamos de grandes atitudes para mudar o mundo. Pequenos hábitos diários fazem a diferença:</p>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li><strong>Reduza o desperdício:</strong> Evite sacolas plásticas e copos descartáveis.</li>
+                <li><strong>Economize água e energia:</strong> Tome banhos mais rápidos e apague as luzes ao sair do quarto.</li>
+                <li><strong>Separe o lixo:</strong> Faça a coleta seletiva na sua casa (reciclável vs. orgânico).</li>
+                <li><strong>Plante uma muda:</strong> Se tiver espaço, plante uma planta ou árvore nativa da sua região.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Consciência Ambiental | Criado com o propósito de proteger o planeta.</p>
+    </footer>
+
+</body>
+</html>
